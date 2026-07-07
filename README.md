@@ -3,7 +3,7 @@
 An interactive Power BI dashboard that analyzes 6M+ mobile-money transactions to surface fraud patterns, evaluate the effectiveness of an existing fraud flag, and propose a stronger, evidence-based detection rule.
 
 ---
-
+[To Download pbix file](https://drive.google.com/file/d/1rd6aT18dpZ7b9o3Uiw4FKtDfp9-onB7-/view?usp=sharing)
 ## Overview
 
 Digital payment fraud is a needle-in-a-haystack problem: only a tiny fraction of transactions are fraudulent, yet each one carries real financial and trust cost. This project takes a raw transaction log, cleans and models it, engineers fraud signals, and builds a three-page dashboard that moves from **what is happening** to **why** to **what to do about it**.
