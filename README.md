@@ -29,11 +29,20 @@ The goal isn't just to visualize fraud — it's to quantify how well the platfor
 **1. Overview** — Descriptive analytics.
 KPI cards (total transactions, fraud rate, total fraud, amount at risk), fraud count by transaction type, fraud over time, and interactive slicers. Establishes the scale and shape of the problem.
 
+<!-- Replace with your screenshot. Save the image as screenshots/overview.png -->
+![Overview page](screenshots/overview.png)
+
 **2. Anomaly Patterns** — Diagnostic analytics.
 Fraud *rate* by transaction type (not just count), an engineered `Balance Emptied` signal, and amount-band distribution of fraud vs legitimate activity. Reveals *how* fraud behaves.
 
+<!-- Replace with your screenshot. Save the image as screenshots/anomaly-patterns.png -->
+![Anomaly Patterns page](screenshots/anomaly-patterns.png)
+
 **3. Rule Effectiveness** — Recommendation.
 Compares the platform's existing flag against a proposed rule built from the anomaly findings, measured by fraud detection rate (recall), with an explicit note on the precision trade-off.
+
+<!-- Replace with your screenshot. Save the image as screenshots/rule-effectiveness.png -->
+![Rule Effectiveness page](screenshots/rule-effectiveness.png)
 
 ## Key Findings
 
